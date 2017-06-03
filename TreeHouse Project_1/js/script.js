@@ -12,7 +12,7 @@ function print(message)
 
 function RandomIndex(array)
 {
-  // function creates a random number from 0 to length of the array
+  // function creates a random number from all the available array index values
   var randomiser = Math.floor(Math.random()*array.length);
   return randomiser;
 }
