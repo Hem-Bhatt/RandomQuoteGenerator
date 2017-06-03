@@ -12,13 +12,13 @@ function print(message)
 
 function RandomIndex(array)
 {
-  // function creates a random number from 0 to length of the arra
+  // function creates a random number from 0 to length of the array
   var randomiser = Math.floor(Math.random()*array.length);
   return randomiser;
 }
 
 
-// Need to add other properties to the quotes object
+// quotes object 
 var quotes = [
   {quote: "You must be the change you wish to see in the world.", source: "Mahatma Gandhi" },
   {quote: "What's done is done", source: "William Shakespeare", citation:"Macbeth"},
@@ -38,7 +38,7 @@ function getRandomQuote()
 }
 
 
- // Need to add, other properties
+// Prints the Quote according to our desired format
 function printQuote()
  {
   var value = getRandomQuote();
